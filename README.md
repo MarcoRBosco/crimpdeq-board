@@ -57,8 +57,8 @@ TODO
 
 ## Project KiCad Libraries
 
-* [ESP32C3](https://github.com/espressif/kicad-libraries)
-* [Other](https://github.com/uampio/UAMP-KiCad-Libraries)
+* [Espressif KiCad Libraries v3.0.2](https://github.com/espressif/kicad-libraries/releases/tag/3.0.2)
+* [UAMP KiCad Libraries vX.X.X](https://github.com/uampio/UAMP-KiCad-Libraries)
 
 ## Board Design
 
