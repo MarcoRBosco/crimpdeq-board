@@ -4786,6 +4786,186 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Reference_Voltage:REF35330QDBVR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 3.81 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "REF35330QDBVR"
+				(at 8.636 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+				(at 0 -21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ref35.pdf"
+				(at 0 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "3.3V, Ultra Low-Power, High-Precision Voltage Reference, SOT-23-6"
+				(at 0 19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "REF35330QDBVR_1_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "VREF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "NR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers
 				(hide yes)
@@ -6200,12 +6380,6 @@
 		(uuid "7760a75a-d74b-4185-b34e-cbc7b2c339b6")
 	)
 	(junction
-		(at 265.43 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7b01be8f-5c32-4a47-bfa4-c52a7a9691be")
-	)
-	(junction
 		(at 236.22 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6488,16 +6662,6 @@
 			(type default)
 		)
 		(uuid "0ceb97d6-1b0f-4b71-921e-b0955c30c998")
-	)
-	(wire
-		(pts
-			(xy 265.43 134.62) (xy 274.32 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0dd7f292-5914-45ba-943f-c4505da387b1")
 	)
 	(wire
 		(pts
@@ -6788,16 +6952,6 @@
 			(type default)
 		)
 		(uuid "28b01cd2-da3a-46ec-8825-b0f31a0b8987")
-	)
-	(wire
-		(pts
-			(xy 220.98 134.62) (xy 265.43 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29319503-01ff-4451-a9d9-4c5ecaf4bcc4")
 	)
 	(wire
 		(pts
@@ -8991,16 +9145,6 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 134.62) (xy 265.43 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0e27bd8-6d60-4edf-8262-ab19e76a1c09")
-	)
-	(wire
-		(pts
 			(xy 87.63 181.61) (xy 87.63 187.96)
 		)
 		(stroke
@@ -9118,16 +9262,6 @@
 			(type default)
 		)
 		(uuid "f7447e92-4293-41c4-be3f-69b30aad1f17")
-	)
-	(wire
-		(pts
-			(xy 265.43 147.32) (xy 260.35 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f88977e5-3689-4f09-8034-828294adc07a")
 	)
 	(wire
 		(pts
@@ -21075,6 +21209,88 @@
 			(project ""
 				(path "/196a8dd5-5fd6-4c7f-ae4a-0104bd82e61b"
 					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Reference_Voltage:REF35330QDBVR")
+		(at 207.01 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "03632df9-dfbd-477f-abbc-73d4ebd140a8")
+		(property "Reference" "U3"
+			(at 209.1533 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "REF35330QDBVR"
+			(at 209.1533 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(at 207.01 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ref35.pdf"
+			(at 207.01 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3.3V, Ultra Low-Power, High-Precision Voltage Reference, SOT-23-6"
+			(at 207.01 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fbfb72da-17c3-452f-80eb-809d8eb41332")
+		)
+		(pin "6"
+			(uuid "c4f32310-f96e-4900-87ca-2dcfde9ea438")
+		)
+		(pin "5"
+			(uuid "7e564ee3-ef76-4ca8-b97f-56fb37692428")
+		)
+		(pin "3"
+			(uuid "d6d91de6-1ebd-4b53-8afd-300afe3eef05")
+		)
+		(pin "4"
+			(uuid "c8c23744-e196-4484-8c1a-0f019b4a87ea")
+		)
+		(pin "1"
+			(uuid "09b780d0-0050-4da3-810f-e8828f037f28")
+		)
+		(instances
+			(project ""
+				(path "/196a8dd5-5fd6-4c7f-ae4a-0104bd82e61b"
+					(reference "U3")
 					(unit 1)
 				)
 			)
