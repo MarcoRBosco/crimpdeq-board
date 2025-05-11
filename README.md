@@ -58,7 +58,7 @@ TODO
 ## Project KiCad Libraries
 
 * [Espressif KiCad Libraries v3.0.2](https://github.com/espressif/kicad-libraries/releases/tag/3.0.2)
-* [UAMP KiCad Libraries vX.X.X](https://github.com/uampio/UAMP-KiCad-Libraries)
+* [UAMP KiCad Libraries v1.0.1](https://github.com/uampio/UAMP-KiCad-Libraries/releases/tag/1.0.1)
 
 ## Board Design
 
