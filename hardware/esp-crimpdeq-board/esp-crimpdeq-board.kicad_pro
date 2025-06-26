@@ -679,6 +679,30 @@
     [
       "196a8dd5-5fd6-4c7f-ae4a-0104bd82e61b",
       "Root"
+    ],
+    [
+      "d8c1ef87-9909-4fcd-b89b-9bccb4b53396",
+      "ADC"
+    ],
+    [
+      "951c7b09-00b0-4256-9997-0757a8359934",
+      "I2C Sensors"
+    ],
+    [
+      "edec9b61-78d6-4e8f-ba70-ee28b6a0d74a",
+      "Micro controller"
+    ],
+    [
+      "7ce8c381-d292-4cf3-911f-3b8526ec30c3",
+      "Actuators"
+    ],
+    [
+      "6ed14c92-d3ed-42cb-9e6f-9ca4e167b54a",
+      "Power management"
+    ],
+    [
+      "ac63432e-1269-4441-a32c-8e71f16f7ac8",
+      "Connectors"
     ]
   ],
   "text_variables": {}
