@@ -3134,6 +3134,18 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 110.49 95.25)
+		(end 198.12 143.51)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8a43c437-62fa-4a98-b41e-6a9e145026bb)
+	)
 	(text "DC/DC Buck Converter 3V3 Rails"
 		(exclude_from_sim no)
 		(at 111.506 15.24 0)
@@ -3169,6 +3181,19 @@
 			(justify left bottom)
 		)
 		(uuid "13c3a3cc-7bfd-402e-a4f6-b4dbfad32bce")
+	)
+	(text "Battery Gauge\n"
+		(exclude_from_sim no)
+		(at 112.268 141.224 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "2f52b8de-b996-429f-9685-c48bdc3bf491")
 	)
 	(text "USB Type-C Connector"
 		(exclude_from_sim no)
