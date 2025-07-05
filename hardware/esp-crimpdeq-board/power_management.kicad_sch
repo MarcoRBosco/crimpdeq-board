@@ -5419,94 +5419,6 @@
 		)
 		(uuid "85412cb0-fb8e-4c35-8408-a7e00fa39c0f")
 	)
-	(global_label "BATTERY_TH"
-		(shape input)
-		(at 143.51 120.65 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "35bd360d-e7be-45f6-a277-d3c12de51ee1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.1119 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CHARGING"
-		(shape output)
-		(at 67.31 45.72 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5358a8bf-f721-4d6f-af1b-a6fbee2b0143")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 67.31 57.4854 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "USB_D+"
-		(shape bidirectional)
-		(at 71.12 153.67 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6b037d5a-e7c7-4a2e-98e5-99537771f6be")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 82.0235 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LP_SDA"
-		(shape bidirectional)
-		(at 180.34 115.57 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8ab5a135-531e-474b-9448-13c269c306ed")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.4573 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "VREF3V3"
 		(shape output)
 		(at 264.16 125.73 90)
@@ -5520,28 +5432,6 @@
 		(uuid "b371e350-50bc-43de-bbe5-52fb841b524d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 264.16 115.2952 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "USB_D-"
-		(shape bidirectional)
-		(at 71.12 158.75 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c8211ef5-0244-4c05-9438-b9804a8e9a00")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 82.0235 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5569,28 +5459,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LP_SCL"
-		(shape input)
-		(at 180.34 113.03 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f8e3051e-1bbd-41fe-aedd-ff08ead11ec5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 189.4443 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -5638,6 +5506,72 @@
 				(hide yes)
 			)
 		)
+	)
+	(hierarchical_label "LP_SDA"
+		(shape bidirectional)
+		(at 180.34 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5a319ca7-d632-4bba-99c4-235f424c9a48")
+	)
+	(hierarchical_label "CHARGING"
+		(shape output)
+		(at 67.31 45.72 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "653de100-a9af-4eb2-be60-d9da70742428")
+	)
+	(hierarchical_label "USB_D+"
+		(shape bidirectional)
+		(at 71.12 153.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a88ce8e7-9e0a-4000-be8c-6db44bb03d35")
+	)
+	(hierarchical_label "USB_D-"
+		(shape bidirectional)
+		(at 71.12 158.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c44f64c7-5ff1-48f7-9789-29c2f0c2dd64")
+	)
+	(hierarchical_label "BATTERY_TH"
+		(shape input)
+		(at 143.51 120.65 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f0be821e-d8f3-40d4-a758-fbf4efdecb47")
+	)
+	(hierarchical_label "LP_SCL"
+		(shape input)
+		(at 180.34 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fcb3a1e3-89e8-42a3-9b30-8fdf941cce3a")
 	)
 	(symbol
 		(lib_id "power:GND")
